@@ -1,3 +1,39 @@
-h1 {
-  color: red;
+body{
+  text-align: center;
+}
+
+.box {
+  display:inline-block;
+  height:100px;
+  width: 100px;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+/*
+@media screen and (min-width:600px) {
+
+  div.box.blue, div.box.green  {
+    display: none;
+  }
+}*/
+ @media screen and (max-width:1000px) {
+
+    div.box.red, div.box.blue, div.box.green, div.box.black {
+    width: 100%;
+   }
 }
